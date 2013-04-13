@@ -1,4 +1,4 @@
-# Craft Analytics License Agreement
+# Directory License Agreement
 
 ## Usage
 

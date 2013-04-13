@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Craft Analytics
+ *  Craft Directory
  *
- * @package     Craft Analytics
+ * @package     Directory
  * @version     Version 1.0
  * @author      Benjamin David
  * @copyright   Copyright (c) 2013 - DUKT
