@@ -1,16 +1,10 @@
-# Analytics *for Craft*
+# Craft Directory
 
-This plugin helps you print Google Analytics tracking code.
+Find, download and install plugins for Craft
 
-## Installation
+## Add Your Plugin
 
-Put the **analytics/** folder inside **craft/plugins/**.
-
-## Example
-
-Put this code *"after the opening `<body>` tag"* as they say :
-
-    {{craft.analytics.code("UA-XXXXXXX-X")}}
+You can contribute by adding you plugin to the list. All you have to do is add a row for you plugin in the [config/plugins.json](https://github.com/dukt/directory.craft/blob/master/config/plugins.json) file.
 
 ## Feedback
 
