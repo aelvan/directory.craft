@@ -21,7 +21,7 @@ class DirectoryPlugin extends BasePlugin
     {
         return Craft::t('Directory');
     }
-    
+
     // --------------------------------------------------------------------
 
     /**
@@ -29,9 +29,9 @@ class DirectoryPlugin extends BasePlugin
      */
     function getVersion()
     {
-        return '0.9';
+        return '0.9.1';
     }
-    
+
     // --------------------------------------------------------------------
 
     /**
@@ -41,7 +41,7 @@ class DirectoryPlugin extends BasePlugin
     {
         return 'Dukt';
     }
-    
+
     // --------------------------------------------------------------------
 
     /**
@@ -51,7 +51,7 @@ class DirectoryPlugin extends BasePlugin
     {
         return 'http://dukt.net/';
     }
-    
+
     // --------------------------------------------------------------------
 
     /**
