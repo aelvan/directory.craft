@@ -1,5 +1,13 @@
 [
     {
+        "handle":"analytics",
+        "class":"Analytics",
+        "zip": "http://cl.ly/021x2p3K2L0s/download/analytics-1.0.zip",
+        "developer":"Dukt",
+        "developerUrl":"http://dukt.net/",
+        "description":"Easily print Google Analytics tracking code"
+    },
+    {
         "handle":"cocktailrecipes",
         "class":"CocktailRecipes",
         "githubUser" : "adrianmacneil",
@@ -15,14 +23,16 @@
         "developerUrl":"https://github.com/lukeholder/",
         "githubUser":"lukeholder",
         "githubRepo":"craft-dbug",
-        "path":"plugins/dbug/"
+        "path":"plugins/dbug/",
+        "description":"Figure out what kind of variables you are dealing with, and what methods they implement"
     },
     {
         "handle":"duktvideos",
         "class":"DuktVideos",
         "zip": "http://cl.ly/2C2l360O2W1P/download/duktvideos-bd1e109.zip",
         "developer":"Dukt",
-        "developerUrl":"http://dukt.net/"
+        "developerUrl":"http://dukt.net/",
+        "description":"Publish YouTube and Vimeo videos"
     },
     {
         "handle":"inspector",
@@ -40,7 +50,8 @@
         "githubUser":"lodewijk",
         "githubRepo":"low_date",
         "developer":"Lodewijk Schutte",
-        "developerUrl":"http://gotolow.com/"
+        "developerUrl":"http://gotolow.com/",
+        "description":"Simple fieldtype for storing dates"
     },
     {
         "handle":"low_regex",
@@ -49,7 +60,8 @@
         "githubUser":"lodewijk",
         "githubRepo":"low_regex",
         "developer":"Lodewijk Schutte",
-        "developerUrl":"http://gotolow.com/"
+        "developerUrl":"http://gotolow.com/",
+        "description":"Adds a preg_replace filter to Twig"
     },
     {
         "handle":"lumberjack",
@@ -68,14 +80,16 @@
         "githubUser":"pvledoux",
         "githubRepo":"blocks-nicetime",
         "developer":"Pv Ledoux",
-        "developerUrl":"http://www.twitter.com/pvledoux/"
+        "developerUrl":"http://www.twitter.com/pvledoux/",
+        "description":"Converts a date to relative time"
     },
     {
         "handle":"sourceedit",
         "class":"SourceEdit",
         "zip": "https://bitbucket.org/nicholasleblanc/source-edit/get/3d800e8b824e.zip",
         "developer":"Nicholas LeBlanc  ",
-        "developerUrl":"https://bitbucket.org/nicholasleblanc"
+        "developerUrl":"https://bitbucket.org/nicholasleblanc",
+        "description":"Integrate ACE code editor into a block type"
     },
     {
         "handle":"truncate",
@@ -83,6 +97,7 @@
         "githubUser":"nizur",
         "githubRepo":"truncate",
         "developer":"Chris Ruzin",
-        "developerUrl":"http://chrisruzin.net/"
+        "developerUrl":"http://chrisruzin.net/",
+        "description":"A simple Craft CMS plugin/Twig filter"
     }
 ]
