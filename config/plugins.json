@@ -2,6 +2,8 @@
     {
         "handle":"analytics",
         "class":"Analytics",
+        "name":"Analytics",
+        "url":"http://dukt.net/add-ons/craft/analytics",
         "zip": "http://cl.ly/021x2p3K2L0s/download/analytics-1.0.zip",
         "developer":"Dukt",
         "developerUrl":"http://dukt.net/",
@@ -10,6 +12,7 @@
     {
         "handle":"cocktailrecipes",
         "class":"CocktailRecipes",
+        "name":"Cocktail Recipes",
         "githubUser" : "adrianmacneil",
         "githubRepo" : "cocktailrecipes",
         "developer":"Adrian Macneil",
@@ -19,6 +22,7 @@
     {
         "handle":"dbug",
         "class":"Dbug",
+        "name":"Dbug",
         "developer":"Lukeholder",
         "developerUrl":"https://github.com/lukeholder/",
         "githubUser":"lukeholder",
@@ -29,6 +33,8 @@
     {
         "handle":"duktvideos",
         "class":"DuktVideos",
+        "name":"Dukt Videos",
+        "url":"http://dukt.net/add-ons/craft/videos",
         "zip": "http://cl.ly/2C2l360O2W1P/download/duktvideos-bd1e109.zip",
         "developer":"Dukt",
         "developerUrl":"http://dukt.net/",
@@ -37,6 +43,7 @@
     {
         "handle":"inspector",
         "class":"Inspector",
+        "name":"Inspector",
         "description":"Inspect variables in templates",
         "githubUser":"adrianmacneil",
         "githubRepo":"craft-inspector",
@@ -46,6 +53,7 @@
     {
         "handle":"low_date",
         "class":"Low_date",
+        "name":"Low Date",
         "path":"low_date/",
         "githubUser":"lodewijk",
         "githubRepo":"low_date",
@@ -56,6 +64,7 @@
     {
         "handle":"low_regex",
         "class":"Low_regex",
+        "name":"Low Regex",
         "path":"low_regex/",
         "githubUser":"lodewijk",
         "githubRepo":"low_regex",
@@ -66,6 +75,7 @@
     {
         "handle":"lumberjack",
         "class":"LumberJack",
+        "name":"LumberJack",
         "description":"Logger with dashboard backend for viewing and searching logs.",
         "path":"plugins/lumberjack",
         "githubUser":"themusicman",
@@ -76,6 +86,7 @@
     {
         "handle":"moreinfo",
         "class":"MoreInfo",
+        "name":"More Info (Beta)",
         "path":"plugins/moreinfo/",
         "githubUser":"BarrelStrength",
         "githubRepo":"Craft-MoreInfo",
@@ -86,6 +97,7 @@
     {
         "handle":"nicetime",
         "class":"Nicetime",
+        "name":"Nice Time",
         "path":"plugins/nicetime/",
         "githubUser":"pvledoux",
         "githubRepo":"blocks-nicetime",
@@ -96,6 +108,8 @@
     {
         "handle":"sourceedit",
         "class":"SourceEdit",
+        "name":"Source Edit",
+        "url":"https://bitbucket.org/nicholasleblanc/source-edit",
         "zip": "https://bitbucket.org/nicholasleblanc/source-edit/get/3d800e8b824e.zip",
         "developer":"Nicholas LeBlanc  ",
         "developerUrl":"https://bitbucket.org/nicholasleblanc",
@@ -104,6 +118,7 @@
     {
         "handle":"truncate",
         "class":"Truncate",
+        "name":"Truncate",
         "githubUser":"nizur",
         "githubRepo":"truncate",
         "developer":"Chris Ruzin",
