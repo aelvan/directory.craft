@@ -4,7 +4,7 @@
  *  Craft Directory
  *
  * @package     Directory
- * @version     Version 0.9.1
+ * @version     Version 0.9.2
  * @author      Benjamin David
  * @copyright   Copyright (c) 2013 - DUKT
  * @link        http://dukt.net/add-ons/craft/analytics/
