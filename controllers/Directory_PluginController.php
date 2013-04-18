@@ -4,7 +4,7 @@
  * Craft Directory
  *
  * @package     Directory
- * @version     Version 1.0
+ * @version     Version 0.9.1
  * @author      Benjamin David
  * @copyright   Copyright (c) 2013 - DUKT
  * @link        http://dukt.net/add-ons/craft/analytics/
@@ -56,7 +56,7 @@ class Directory_PluginController extends BaseController
 
             if(isset($plugin->path))
             {
-                $pluginPath = $plugin->path;    
+                $pluginPath = $plugin->path;
             }
 
 
@@ -72,14 +72,14 @@ class Directory_PluginController extends BaseController
 
 
                 // unzip
-                
+
                 $content = $unzipper->extract($pluginZipPath, $pluginZipDir);
 
                 $filesystem->rename($pluginZipDir.$content[0].'/'.$pluginPath, CRAFT_PLUGINS_PATH.$plugin->handle);
             }
             catch(\Exception $e)
             {
-                
+
             }
 
             try {
@@ -90,7 +90,7 @@ class Directory_PluginController extends BaseController
             }
             catch(\Exception $e)
             {
-                
+
             }
 
             // redirect to install
@@ -123,7 +123,7 @@ class Directory_PluginController extends BaseController
         }
         else
         {
-            $this->redirect('directory');    
+            $this->redirect('directory');
         }
     }
 
@@ -139,7 +139,7 @@ class Directory_PluginController extends BaseController
 
             $pluginComponent = craft()->plugins->getPlugin($plugin->class, false);
 
-            
+
 
             if (craft()->plugins->installPlugin($plugin->class))
             {
