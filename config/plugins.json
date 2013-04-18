@@ -24,7 +24,7 @@
         "githubUser":"lukeholder",
         "githubRepo":"craft-dbug",
         "path":"plugins/dbug/",
-        "description":"Figure out what kind of variables you are dealing with, and what methods they implement"
+        "description":"Visually inspect twig variables and objects in templates."
     },
     {
         "handle":"duktvideos",
