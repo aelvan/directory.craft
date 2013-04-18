@@ -1,7 +1,5 @@
 {% extends "_layouts/cp" %}
 
-{% includeCssResource "directory/css/cp.css" %}
-
 {% set title = "Directory"|t %}
 
 {% set content %}
@@ -10,7 +8,7 @@
     <table id="sources" class="data collapsible">
         <thead>
             <th scope="col">{{ "Name"|t }}</th>
-            <th scope="col" class="description">{{ "Description"|t }}</th>
+            <th scope="col">{{ "Description"|t }}</th>
             <th scope="col">{{ "Developer"|t }}</th>
             <th scope="col">{{ "Status"|t }}</th>
             <th scope="thin"></th>
