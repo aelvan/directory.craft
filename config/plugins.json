@@ -74,6 +74,16 @@
         "developerUrl":"http://21purple.com/"
     },
     {
+        "handle":"moreinfo",
+        "class":"MoreInfo",
+        "path":"plugins/moreinfo/",
+        "githubUser":"BarrelStrength",
+        "githubRepo":"Craft-MoreInfo",
+        "developer":"Barrel Strength Design",
+        "developerUrl":"http://barrelstrengthdesign.com",
+        "description":"Add custom-styled information fieldtypes to your Sections."
+    },
+    {
         "handle":"nicetime",
         "class":"Nicetime",
         "path":"plugins/nicetime/",
