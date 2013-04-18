@@ -8,6 +8,12 @@ You can download Craft Directory's latest version at :
 
 [http://dukt.net/add-ons/craft/directory](http://dukt.net/add-ons/craft/directory)
 
+## Installation
+
+All you need to do is unzip the downloaded file and move the `directory` folder to `craft/plugins`.
+
+## Installing from the GitHub repository
+
 If you want to install the add-on from the GitHub repository, you'll have to use Composer in order to update dependencies :
 
     $ curl -s http://getcomposer.org/installer | php
