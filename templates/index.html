@@ -1,5 +1,7 @@
 {% extends "_layouts/cp" %}
 
+{% includeCssResource "directory/css/cp.css" %}
+
 {% set title = "Directory"|t %}
 
 {% set content %}
@@ -8,9 +10,9 @@
     <table id="sources" class="data collapsible">
         <thead>
             <th scope="col">{{ "Name"|t }}</th>
-            <th scope="col">{{ "Description"|t }}</th>
+            <th scope="col" class="description">{{ "Description"|t }}</th>
             <th scope="col">{{ "Developer"|t }}</th>
-            <th scope="col">{{ "Plugin Status"|t }}</th>
+            <th scope="col">{{ "Status"|t }}</th>
             <th scope="thin"></th>
             <th scope="thin"></th>
         </thead>
@@ -18,7 +20,7 @@
             {% for key, plugin in craft.directory.plugins() %}
                 <tr>
                     <td>{{plugin.class}}</td>
-                    
+
                     <td>
                         {% if plugin.description is defined %}
                             <em>{{plugin.description}}</em>
@@ -41,18 +43,17 @@
                         {%if pluginComponent %}
                             {% if pluginComponent.isInstalled() %}
                                 {% if pluginComponent.isEnabled() %}
-                                    <span class="status on"></span> 
-                                    Installed
+                                    <span class="status on"></span>Installed
                                 {% else %}
-                                    <span class="status off"></span> 
+                                    <span class="status off"></span>
                                     Disabled
                                 {% endif %}
                             {% else %}
-                                <span class="status"></span> 
+                                <span class="status"></span>
                                 Not Installed
                             {% endif %}
                         {% else %}
-                            <span class="status"></span> 
+                            <span class="status"></span>
                             Not downloaded
                         {% endif %}
                     </td>
@@ -64,7 +65,7 @@
                             <a href="{{actionUrl('directory/plugin/download', {key:key})}}" class="btn small">Download</a>
                         {% endif %}
                     </td>
-                    
+
                     <td>
                         {%if pluginComponent %}
                             {% if pluginComponent.isInstalled() %}
