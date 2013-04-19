@@ -17,8 +17,7 @@ class DirectoryService extends BaseApplicationComponent
 {
     public function plugins()
     {
-        // $plugins = "https://raw.github.com/dukt/directory.craft/master/config/plugins.json";
-        $plugins = CRAFT_PLUGINS_PATH.'directory/config/plugins.json';
+        $plugins = "https://raw.github.com/dukt/directory.craft/master/config/plugins.json";
 
         $plugins = file_get_contents($plugins);
 
@@ -27,4 +26,3 @@ class DirectoryService extends BaseApplicationComponent
         return $plugins;
     }
 }
-
