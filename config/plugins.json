@@ -106,6 +106,16 @@
         "description":"Converts a date to relative time"
     },
     {
+        "handle":"seo",
+        "class":"Seo",
+        "name":"SEO",
+        "url":"http://dukt.net/add-ons/craft/seo",
+        "zip": "http://cl.ly/0f122l230c2E/download/seo.craft-0.9.zip",
+        "developer":"Dukt",
+        "developerUrl":"http://dukt.net/",
+        "description":"Connect to Google Webmaster Tools"
+    },
+    {
         "handle":"sourceedit",
         "class":"SourceEdit",
         "name":"Source Edit",
