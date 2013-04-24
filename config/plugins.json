@@ -31,16 +31,6 @@
         "description":"Visually inspect twig variables and objects in templates."
     },
     {
-        "handle":"duktvideos",
-        "class":"DuktVideos",
-        "name":"Dukt Videos",
-        "url":"http://dukt.net/add-ons/craft/videos",
-        "zip": "http://cl.ly/2C2l360O2W1P/download/duktvideos-bd1e109.zip",
-        "developer":"Dukt",
-        "developerUrl":"http://dukt.net/",
-        "description":"Publish YouTube and Vimeo videos"
-    },
-    {
         "handle":"inspector",
         "class":"Inspector",
         "name":"Inspector",
@@ -134,5 +124,15 @@
         "developer":"Chris Ruzin",
         "developerUrl":"http://chrisruzin.net/",
         "description":"A simple Craft CMS plugin/Twig filter"
+    },
+    {
+        "handle":"videos",
+        "class":"Videos",
+        "name":"Videos",
+        "url":"http://dukt.net/add-ons/craft/videos",
+        "zip": "http://cl.ly/1I0Y2q1Z2U18/download/craft.videos-0.9.1.zip",
+        "developer":"Dukt",
+        "developerUrl":"http://dukt.net/",
+        "description":"Manage and publish YouTube / Vimeo videos"
     }
 ]
