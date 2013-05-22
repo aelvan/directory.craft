@@ -20,6 +20,16 @@
         "description":"Example plugin for the Craft CMS Beta"
     },
     {
+        "handle":"contactform",
+        "class":"ContactForm",
+        "name":"Contact Form",
+        "githubUser":"pixelandtonic",
+        "githubRepo":"ContactForm",
+        "developer":"Pixel & Tonic",
+        "developerUrl":"http://pixelandtonic.com",
+        "description":"Simple email contact form plugin for Craft."
+    },
+    {
         "handle":"dbug",
         "class":"Dbug",
         "name":"Dbug",
