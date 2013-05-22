@@ -23,6 +23,7 @@
         "handle":"contactform",
         "class":"ContactForm",
         "name":"Contact Form",
+        "path":"contactform/",
         "githubUser":"pixelandtonic",
         "githubRepo":"ContactForm",
         "developer":"Pixel & Tonic",
