@@ -2,6 +2,8 @@
     {
         "handle":"analytics",
         "class":"Analytics",
+        "name":"Analytics",
+        "url":"http://dukt.net/add-ons/craft/analytics",
         "zip": "http://cl.ly/021x2p3K2L0s/download/analytics-1.0.zip",
         "developer":"Dukt",
         "developerUrl":"http://dukt.net/",
@@ -10,6 +12,7 @@
     {
         "handle":"cocktailrecipes",
         "class":"CocktailRecipes",
+        "name":"Cocktail Recipes",
         "githubUser" : "adrianmacneil",
         "githubRepo" : "cocktailrecipes",
         "developer":"Adrian Macneil",
@@ -17,8 +20,20 @@
         "description":"Example plugin for the Craft CMS Beta"
     },
     {
+        "handle":"contactform",
+        "class":"ContactForm",
+        "name":"Contact Form",
+        "path":"contactform/",
+        "githubUser":"pixelandtonic",
+        "githubRepo":"ContactForm",
+        "developer":"Pixel & Tonic",
+        "developerUrl":"http://pixelandtonic.com",
+        "description":"Simple email contact form plugin for Craft."
+    },
+    {
         "handle":"dbug",
         "class":"Dbug",
+        "name":"Dbug",
         "developer":"Lukeholder",
         "developerUrl":"https://github.com/lukeholder/",
         "githubUser":"lukeholder",
@@ -27,16 +42,9 @@
         "description":"Visually inspect twig variables and objects in templates."
     },
     {
-        "handle":"duktvideos",
-        "class":"DuktVideos",
-        "zip": "http://cl.ly/2C2l360O2W1P/download/duktvideos-bd1e109.zip",
-        "developer":"Dukt",
-        "developerUrl":"http://dukt.net/",
-        "description":"Publish YouTube and Vimeo videos"
-    },
-    {
         "handle":"inspector",
         "class":"Inspector",
+        "name":"Inspector",
         "description":"Inspect variables in templates",
         "githubUser":"adrianmacneil",
         "githubRepo":"craft-inspector",
@@ -46,6 +54,7 @@
     {
         "handle":"low_date",
         "class":"Low_date",
+        "name":"Low Date",
         "path":"low_date/",
         "githubUser":"lodewijk",
         "githubRepo":"low_date",
@@ -56,6 +65,7 @@
     {
         "handle":"low_regex",
         "class":"Low_regex",
+        "name":"Low Regex",
         "path":"low_regex/",
         "githubUser":"lodewijk",
         "githubRepo":"low_regex",
@@ -66,6 +76,7 @@
     {
         "handle":"lumberjack",
         "class":"LumberJack",
+        "name":"LumberJack",
         "description":"Logger with dashboard backend for viewing and searching logs.",
         "path":"plugins/lumberjack",
         "githubUser":"themusicman",
@@ -76,6 +87,7 @@
     {
         "handle":"moreinfo",
         "class":"MoreInfo",
+        "name":"More Info (Beta)",
         "path":"plugins/moreinfo/",
         "githubUser":"BarrelStrength",
         "githubRepo":"Craft-MoreInfo",
@@ -86,6 +98,7 @@
     {
         "handle":"nicetime",
         "class":"Nicetime",
+        "name":"Nice Time",
         "path":"plugins/nicetime/",
         "githubUser":"pvledoux",
         "githubRepo":"blocks-nicetime",
@@ -94,8 +107,20 @@
         "description":"Converts a date to relative time"
     },
     {
+        "handle":"seo",
+        "class":"Seo",
+        "name":"SEO",
+        "url":"http://dukt.net/add-ons/craft/seo",
+        "zip": "http://cl.ly/090e3t132f11/download/seo.craft-0.9.zip",
+        "developer":"Dukt",
+        "developerUrl":"http://dukt.net/",
+        "description":"Connect to Google Webmaster Tools"
+    },
+    {
         "handle":"sourceedit",
         "class":"SourceEdit",
+        "name":"Source Edit",
+        "url":"https://bitbucket.org/nicholasleblanc/source-edit",
         "zip": "https://bitbucket.org/nicholasleblanc/source-edit/get/3d800e8b824e.zip",
         "developer":"Nicholas LeBlanc  ",
         "developerUrl":"https://bitbucket.org/nicholasleblanc",
@@ -104,10 +129,21 @@
     {
         "handle":"truncate",
         "class":"Truncate",
+        "name":"Truncate",
         "githubUser":"nizur",
         "githubRepo":"truncate",
         "developer":"Chris Ruzin",
         "developerUrl":"http://chrisruzin.net/",
         "description":"A simple Craft CMS plugin/Twig filter"
+    },
+    {
+        "handle":"videos",
+        "class":"Videos",
+        "name":"Videos",
+        "url":"http://dukt.net/add-ons/craft/videos",
+        "zip": "http://cl.ly/1I0Y2q1Z2U18/download/craft.videos-0.9.1.zip",
+        "developer":"Dukt",
+        "developerUrl":"http://dukt.net/",
+        "description":"Manage and publish YouTube / Vimeo videos"
     }
 ]

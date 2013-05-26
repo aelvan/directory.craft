@@ -1,7 +1,5 @@
 {% extends "_layouts/cp" %}
 
-{% includeCssResource "directory/css/cp.css" %}
-
 {% set title = "Directory"|t %}
 
 {% set content %}
@@ -10,7 +8,7 @@
     <table id="sources" class="data collapsible">
         <thead>
             <th scope="col">{{ "Name"|t }}</th>
-            <th scope="col" class="description">{{ "Description"|t }}</th>
+            <th scope="col">{{ "Description"|t }}</th>
             <th scope="col">{{ "Developer"|t }}</th>
             <th scope="col">{{ "Status"|t }}</th>
             <th scope="thin"></th>
@@ -19,7 +17,17 @@
         <tbody>
             {% for key, plugin in craft.directory.plugins() %}
                 <tr>
-                    <td>{{plugin.class}}</td>
+                    <th>
+                        {% if plugin.url is defined %}
+                            <a href="{{plugin.url}}">{{plugin.name}}</a>
+                        {% else %}
+                            {% if plugin.githubUser is defined and plugin.githubRepo is defined %}
+                                <a href="https://github.com/{{plugin.githubUser}}/{{plugin.githubRepo}}">{{plugin.name}}</a>
+                            {% else %}
+                                {{plugin.name}}
+                            {% endif %}
+                        {% endif %}
+                    </th>
 
                     <td>
                         {% if plugin.description is defined %}
@@ -60,9 +68,9 @@
 
                     <td>
                         {%if pluginComponent %}
-                            <a class="btn small disabled">Download</a>
+                            <a class="btn small disabled">Download &amp; Install</a>
                         {% else %}
-                            <a href="{{actionUrl('directory/plugin/download', {key:key})}}" class="btn small">Download</a>
+                            <a href="{{actionUrl('directory/plugin/download', {key:key})}}" class="btn small">Download &amp; Install</a>
                         {% endif %}
                     </td>
 
