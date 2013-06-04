@@ -42,17 +42,6 @@
         "description":"Visually inspect twig variables and objects in templates."
     },
     {
-        "handle":"encodeemail",
-        "class":"EncodeEmail",
-        "name":"Encode Email",
-        "path":"plugins/encodeemail/",
-        "githubUser":"BarrelStrength",
-        "githubRepo":"Craft-EncodeEmail",
-        "developer":"Barrel Strength Design",
-        "developerUrl":"http://barrelstrengthdesign.com",
-        "description":"Adds multiple email obfuscation filters for your templates."
-    },
-    {
         "handle":"inspector",
         "class":"Inspector",
         "name":"Inspector",
@@ -98,7 +87,7 @@
     {
         "handle":"moreinfo",
         "class":"MoreInfo",
-        "name":"More Info",
+        "name":"More Info (Beta)",
         "path":"plugins/moreinfo/",
         "githubUser":"BarrelStrength",
         "githubRepo":"Craft-MoreInfo",
