@@ -151,8 +151,8 @@
         "handle":"videos",
         "class":"Videos",
         "name":"Videos",
-        "url":"http://dukt.net/add-ons/craft/videos",
-        "zip": "http://cl.ly/1I0Y2q1Z2U18/download/craft.videos-0.9.1.zip",
+        "url":"http://dukt.net/craft/videos",
+        "zip": "http://cl.ly/211q1a0Z0r3f/download/videos-craft-0.9.2.zip",
         "developer":"Dukt",
         "developerUrl":"http://dukt.net/",
         "description":"Manage and publish YouTube / Vimeo videos"
