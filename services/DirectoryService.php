@@ -124,9 +124,17 @@ class DirectoryService extends BaseApplicationComponent
 
             $pluginComponent = craft()->plugins->getPlugin($plugin->class, false);
 
-            if (craft()->plugins->installPlugin($plugin->class)) {
-                $r['success'] = true;
-            } else {
+            try {
+                if(!$pluginComponent->isInstalled) {
+                    if (craft()->plugins->installPlugin($plugin->class)) {
+                        $r['success'] = true;
+                    } else {
+                        $r['msg'] = 'Couldn’t install plugin.';
+                    }
+                } else {
+                    $r['success'] = true;
+                }
+            } catch(\Exception $e) {
                 $r['msg'] = 'Couldn’t install plugin.';
             }
         } else {
