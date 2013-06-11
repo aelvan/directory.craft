@@ -1,14 +1,13 @@
 <?php
 
 /**
- *  Craft Directory
+ * Craft Directory by Dukt
  *
- * @package     Directory
- * @version     Version 0.9.3
- * @author      Benjamin David
- * @copyright   Copyright (c) 2013 - DUKT
- * @link        http://dukt.net/add-ons/craft/analytics/
- *
+ * @package   Craft Directory
+ * @author    Benjamin David
+ * @copyright Copyright (c) 2013, Dukt
+ * @license   http://docs.dukt.net/craft/directory/license
+ * @link      http://dukt.net/craft/directory
  */
 
 namespace Craft;
