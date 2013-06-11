@@ -13,13 +13,6 @@
 
 namespace Craft;
 
-require_once(CRAFT_PLUGINS_PATH.'directory/vendor/autoload.php');
-
-use VIPSoft\Unzip\Unzip;
-use Symfony\Component\Filesystem\Filesystem;
-
-
-
 class Directory_PluginController extends BaseController
 {
     public function actionDownload()
