@@ -16,17 +16,25 @@
         </thead>
         <tbody>
             {% for key, plugin in craft.directory.plugins() %}
+
+                {% set pluginComponent = craft.plugins.getPlugin(plugin.class, false) %}
+
+
                 <tr>
                     <th>
                         {% if plugin.url is defined %}
-                            <a href="{{plugin.url}}">{{plugin.name}}</a>
+                            <a href="{{plugin.url}}">
                         {% else %}
-                            {% if plugin.githubUser is defined and plugin.githubRepo is defined %}
-                                <a href="https://github.com/{{plugin.githubUser}}/{{plugin.githubRepo}}">{{plugin.name}}</a>
-                            {% else %}
-                                {{plugin.name}}
-                            {% endif %}
+                            <a href="https://github.com/{{plugin.githubUser}}/{{plugin.githubRepo}}">
                         {% endif %}
+
+                        {{plugin.name}}
+
+                        {% if pluginComponent.version is defined %}
+                            <span class="light">{{pluginComponent.version}}</span>
+                        {% endif %}
+
+                        </a>
                     </th>
 
                     <td>
@@ -46,7 +54,7 @@
                     </td>
 
                     <td>
-                        {% set pluginComponent = craft.plugins.getPlugin(plugin.class, false) %}
+
 
                         {%if pluginComponent %}
                             {% if pluginComponent.isInstalled() %}
@@ -68,7 +76,7 @@
 
                     <td>
                         {%if pluginComponent %}
-                            <a class="btn small disabled">Download &amp; Install</a>
+                            <a href="{{actionUrl('directory/plugin/update', {key:key})}}" class="btn small">Update</a>
                         {% else %}
                             <a href="{{actionUrl('directory/plugin/download', {key:key})}}" class="btn small">Download &amp; Install</a>
                         {% endif %}
@@ -89,4 +97,6 @@
             {% endfor %}
         </tbody>
     </table>
+
+
 {% endset %}
