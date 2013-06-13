@@ -42,6 +42,16 @@
         "description":"Visually inspect twig variables and objects in templates."
     },
     {
+        "handle":"inflect",
+        "class":"Inflect",
+        "name":"Inflect",
+        "url":"https://github.com/lukeholder/craft-inflect",
+        "zip": "https://dl.dropbox.com/s/805cjdc6mvvv1vx/inflect.zip",
+        "developer":"Luke Holder",
+        "developerUrl":"https://github.com/lukeholder/",
+        "description":"Twig filters to puralize/singularize words"
+    },
+    {
         "handle":"encodeemail",
         "class":"EncodeEmail",
         "name":"Encode Email",
