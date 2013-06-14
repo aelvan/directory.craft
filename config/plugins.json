@@ -10,6 +10,16 @@
         "description":"Easily print Google Analytics tracking code"
     },
     {
+        "handle":"automin",
+        "class":"Automin",
+        "name":"AutoMin",
+        "githubUser" : "aelvan",
+        "githubRepo" : "AutoMin-Craft",
+        "developer":"André Elvan",
+        "developerUrl":"http://vaersaagod.no/",
+        "description":"Automates compilation of LESS, and combination and compression of Javascript and CSS, directly from your templates"
+    },
+    {
         "handle":"cocktailrecipes",
         "class":"CocktailRecipes",
         "name":"Cocktail Recipes",
