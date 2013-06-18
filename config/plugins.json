@@ -116,6 +116,16 @@
         "developerUrl":"http://21purple.com/"
     },
     {
+        "handle":"mailchimpsubscribe",
+        "class":"MailchimpSubscribe",
+        "name":"Mailchimp Subscribe",
+        "githubUser":"aelvan",
+        "githubRepo":"mailchimp-subscribe-craft",
+        "developer":"André Elvan",
+        "developerUrl":"http://vaersaagod.no",
+        "description":"Simple plugin for subscribing to a MailChimp list through the API."
+    },
+    {
         "handle":"moreinfo",
         "class":"MoreInfo",
         "name":"More Info",
